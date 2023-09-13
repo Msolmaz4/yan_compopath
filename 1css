@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    font-size: 3rem;
+    color: black;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 2;
+}
+ul{
+    list-style: none;
+    position: fixed;
+    background-color: blue;
+    width: 300px;
+    left: -300px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+ul li a{
+    transition: 300ms all;
+}
+.menu-bars{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
